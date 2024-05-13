@@ -1,3 +1,7 @@
+:root {
+  --padding-start: 70px 123px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,13 +11,14 @@
 body {
   background-color: #fffbf3;
   font-size: 16px;
-  padding: 70px 123px;
+  /* padding: 70px 123px; */
   font-family: "Inter", Arial, sans-serif;
   overflow-x: hidden;
 }
 
 .page_one {
   height: 125vh;
+  padding: var(--padding-start);
 }
 
 nav {
@@ -143,6 +148,7 @@ nav {
   text-align: center;
   position: relative;
   height: 110vh;
+  padding: var(--padding-start);
 }
 
 .page_two__title {
@@ -213,6 +219,7 @@ nav {
 .page_three {
   display: flex;
   justify-content: space-between;
+  padding: 70px 123px;
 }
 
 .transparant_card {
@@ -254,5 +261,64 @@ nav {
 
 .page_four {
   position: relative;
-  
+  background-color: #E89058;
+  height: 90vh;
+  padding: var(--padding-start);
+  margin-top: 250px;
 }
+
+.page_four__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -300px;
+}
+
+.page_four__container {
+  display: flex;
+  margin-top: 78px;
+  gap: 160px;
+}
+
+.title_badge {
+  font-size: 20px;
+  padding: 3px 9px;
+  background-color: #FFD1B3;
+  width: 88px;
+  text-transform: uppercase;
+  font-weight: bold;
+  rotate: -5deg;
+  margin-bottom: 22px;
+  border-radius: 5px;
+}
+
+.page_four__content p {
+  font-size: 30px;
+}
+
+.page_five {
+  height: 40vh;
+}
+
+.page_five__container {
+  margin-top: 300px;
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+}
+
+.page_five__container .content {
+ 
+}
+.page_five__container .content img{
+  width: 115px;
+  margin-bottom: 40px;
+}
+
+.page_five__container .content p{
+  font-size: 64px;
+  font-weight: bold;
+}
+
